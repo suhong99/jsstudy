@@ -16,3 +16,4 @@ console.log(target.match(regExp2)); //[ 'A', 'AA', 'B', 'BB', 'A', 'B' ]
 //[]사용
 const regExp3 = /[AB]+/g;
 console.log(target.match(regExp3)); //[ 'A', 'AA', 'B', 'BB', 'A', 'B' ]
+
