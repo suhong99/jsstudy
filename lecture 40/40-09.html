@@ -9,10 +9,17 @@
   <body>
     <button>click me</button>
     <script>
-      const $button = document.querySelector("button");
+      const $button = document.querySelector('button');
 
-      $button.addEventListener("click", function () {
-        console.log("button click");
+      // 둘 다 작동함
+      $button.onclick = function () {
+        console.log('[이벤트 핸들러 프로퍼티 방식]button click');
+      };
+      $button.addEventListener('click', function () {
+        console.log('button click 1');
+      });
+      $button.addEventListener('click', function () {
+        console.log('button click 2');
       });
     </script>
   </body>
