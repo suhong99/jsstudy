@@ -1,5 +1,7 @@
 ## Proxy란?
 
+링크 : https://ko.javascript.info/proxy#ref-1036
+
 `Proxy`는 특정 객체를 감싸 프로퍼티 읽기, 쓰기와 같은 객체에 가해지는 작업을 중간에서 가로채는 객체로, `handler`를 통해 `Proxy` 자체에서 추가 작업을 할 수 있게 합니다.
 
 ```js
